@@ -5,7 +5,7 @@ using UnityEngine;
 public class OpenableObject : MonoBehaviour
 {
     protected CodeLock _codeLock;
-    [SerializeField] private bool _canOpen = true;
+    public bool _canOpen = true;
     [SerializeField] private bool _isOpened;
     [SerializeField] protected float _openCloseTime = 1f;
     protected float openToCloseLerp;
